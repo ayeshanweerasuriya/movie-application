@@ -7,14 +7,14 @@ import "./App.css";
 
 const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=9e358063";
 
-const movie1 = {
-  Title: "John Wick: Kill Count",
-  Year: "2017",
-  imdbID: "tt7161942",
-  Type: "movie",
-  Poster:
-    "https://m.media-amazon.com/images/M/MV5BMjcyM2UzMGQtYzkzYy00MGQ3LWE0MTAtNjIzNzk5MTBhNGQ3XkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SX300.jpg",
-};
+// const movie1 = {
+//   Title: "John Wick: Kill Count",
+//   Year: "2017",
+//   imdbID: "tt7161942",
+//   Type: "movie",
+//   Poster:
+//     "https://m.media-amazon.com/images/M/MV5BMjcyM2UzMGQtYzkzYy00MGQ3LWE0MTAtNjIzNzk5MTBhNGQ3XkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SX300.jpg",
+// };
 
 const App = () => {
   const [movies, setMovies] = useState([]);
